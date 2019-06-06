@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Slider from "./components/Slider/Slider";
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const images = [
+    './img/landscape-4254269_1920.jpg',
+    './img/blushing-4213963_1920.jpg',
+    './img/puppies-4233378_1920.jpg',
+]
+ReactDOM.render(<div className="con">
+    <Slider images={images} />
+</div>, document.getElementById('root'));
+
+

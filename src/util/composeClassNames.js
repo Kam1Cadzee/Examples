@@ -1,0 +1,1 @@
+export const composeClasses = (...names) => names.join(' ');
