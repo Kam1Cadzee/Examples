@@ -1,0 +1,24 @@
+.enter {
+    transform: translate(100%, -50%);
+}
+.enterActive {
+    transition: transform 500ms;
+    transform: translate(0, -50%);
+
+}
+.enterDone {
+}
+
+.exit {
+    transition: transform 500ms;
+}
+.exitActive {
+    transform: translate(100%, -50%);
+}
+
+.exitDone {
+
+}
+
+
+

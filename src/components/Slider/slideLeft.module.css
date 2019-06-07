@@ -1,0 +1,27 @@
+.enter {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: block;
+
+}
+.enterActive {
+    transition: left 1000ms;
+    left: 0;
+}
+.enterDone {
+}
+.exit {
+    position: relative;
+    left: 0;
+}
+.exitActive {
+    transition: left 1000ms;
+    left: -100%;
+}
+.exitDone {
+
+}
+
